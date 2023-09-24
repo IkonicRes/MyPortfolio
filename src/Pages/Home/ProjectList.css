@@ -1,0 +1,63 @@
+:root {
+    /* COLORS */
+        --easy-cyan: #3dd7fd;
+        --magenta-border: #e600e6;
+    /* TEXT EFFECTS */
+        --card-shadow-positive: .1vw;
+        --card-shadow-negative: -.1vw;
+    /* SIZES  */
+        --card-fontsize: 2.5rem;
+        --card-height: 11em;
+}
+p {
+    font-size: 1rem;
+}
+.section-header {
+    padding: 1vw 0 0 4vw;
+
+}
+#work {
+    display: flex;
+    flex-direction: row;
+}
+/* Set the work cards to inherit the flex-box and make it wrap. */
+#work-cards {
+    display: inherit;
+    flex-wrap: wrap;
+}
+/* Give the cards a default "coming soon" image, make the size to cover the image, add a fancy box-shadow inset to make it look nice. Set the height
+So that it takes up some room, and make the font inside bolded, cyan, bigger, and give it a black shadow. Give the cards a small margin around and 
+a small conic gradient border. Set the flex-basis to calculate the small margin so two cards can fit on one line, align the caption to center and
+add a bit of padding so it comes down a little. Decrease default opacity for desktop so it highlights when you hover. */
+.card {
+    background-image: url("../../../assets/images/Coming-soon.png");
+    background-size: cover;
+    box-shadow: 0px 0px 5vw 1vw rgba(0, 0, 0, 1) inset, 0 0 5vw 1vw rgba(0, 0, 0, 0.5) inset;
+    height: var(--card-height);
+    color: var(--easy-cyan);
+    font-size: var(--card-fontsize);
+    font-weight: 700;
+    text-shadow:
+    var(--card-shadow-negative) var(--card-shadow-negative) .2vw #000,  
+    var(--card-shadow-positive) var(--card-shadow-negative) .2vw #000,
+    var(--card-shadow-negative) var(--card-shadow-positive) .2vw #000,
+    var(--card-shadow-positive) var(--card-shadow-positive) .2vw #000;
+    flex-basis: calc(40% - 2.65vw);
+    border: .5vw solid;
+    border-image:
+        conic-gradient(var(--easy-cyan)10% , var(--magenta-border)50%, var(--easy-cyan)80%) 1;
+    margin: .75vw;
+    text-align: center;
+    padding-top: 10vw;
+    opacity: .75;
+}
+/* Set the card opacity on hover to full so that it lights up when you hover on desktop */
+.card:hover {
+    opacity: 1;
+}
+/* Set the image on the first child, make it take up the full row on desktop, and make the image cover the background */
+.card:first-child {
+    flex-basis: 100%;
+    background-image: url("../images/2_5D-starter-kit.png");
+    background-size:cover;
+}
