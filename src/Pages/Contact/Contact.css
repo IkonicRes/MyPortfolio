@@ -1,0 +1,12 @@
+.contact, .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-width: 75vw;
+}
+.contact-form > textarea {
+    min-height: 31vh;
+}
+.contact-form * {
+    line-height: 1.5;
+}
