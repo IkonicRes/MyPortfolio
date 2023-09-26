@@ -10,7 +10,12 @@
         --card-height: 11em;
 }
 p {
-    font-size: 1rem;
+    font-size: 2rem;
+    text-shadow: -1px 1px 7px cyan;
+}
+a {
+    text-decoration: none;
+    text-shadow: -1px 1px 7px cyan;
 }
 .section-header {
     padding: 1vw 0 0 4vw;
@@ -36,24 +41,27 @@ add a bit of padding so it comes down a little. Decrease default opacity for des
     height: var(--card-height);
     color: var(--easy-cyan);
     font-size: var(--card-fontsize);
+    box-sizing: content-box;
     font-weight: 700;
     text-shadow:
-    var(--card-shadow-negative) var(--card-shadow-negative) .2vw #000,  
-    var(--card-shadow-positive) var(--card-shadow-negative) .2vw #000,
-    var(--card-shadow-negative) var(--card-shadow-positive) .2vw #000,
-    var(--card-shadow-positive) var(--card-shadow-positive) .2vw #000;
-    flex-basis: calc(40% - 2.65vw);
+    var(--card-shadow-negative) var(--card-shadow-negative) .2vw #FFF,  
+    var(--card-shadow-positive) var(--card-shadow-negative) .2vw #FFF,
+    var(--card-shadow-negative) var(--card-shadow-positive) .2vw #FFF,
+    var(--card-shadow-positive) var(--card-shadow-positive) .2vw #FFF;
+    flex-basis: calc(50rem - 2.5svw);
     border: .5vw solid;
     border-image:
         conic-gradient(var(--easy-cyan)10% , var(--magenta-border)50%, var(--easy-cyan)80%) 1;
     margin: .75vw;
     text-align: center;
     padding-top: 10vw;
-    opacity: .75;
+    opacity: .9;
+    transition: box-shadow 1 ease-in-out;
 }
 /* Set the card opacity on hover to full so that it lights up when you hover on desktop */
 .card:hover {
-    opacity: 1;
+    box-shadow: 0px 0px 10vw 3vw rgba(0, 0, 0, 1) inset, 0 0 10vw 3vw rgba(0, 0, 0, 1) inset;
+    transition: box-shadow .5s ease-in-out;
 }
 /* Set the image on the first child, make it take up the full row on desktop, and make the image cover the background */
 .card:first-child {

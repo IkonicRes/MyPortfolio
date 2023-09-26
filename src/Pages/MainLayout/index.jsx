@@ -29,10 +29,10 @@ export default function MainLayout() {
         options={{
           background: {
             color: {
-              value: "#0e0025", // Background color set to black
+              value: "#000000db", // Background color set to black
             },
           },
-          fpsLimit: 60,
+          fpsLimit: 75,
           interactivity: {
             events: {
               onClick: {
@@ -40,7 +40,9 @@ export default function MainLayout() {
                 mode: "push",
               },
               onHover: {
-                enable: false, // Disable hover interaction for a lightning effect
+                enable: true, // Disable hover interaction for a lightning effect
+                mode: "attract",
+                strength: .8
               },
               resize: true,
             },
@@ -52,10 +54,12 @@ export default function MainLayout() {
           },
           particles: {
             color: {
-              value: "#03f4fc", // Particle color set to white
+              value: "#FFFFFF", // Particle color set to white
+              opacity: 1
             },
             links: {
-              enable: false, // Disable links between particles
+              enable: true, // Disable links between particles
+              color: '#00c3ff'
             },
             move: {
               enable: true,
@@ -77,11 +81,11 @@ export default function MainLayout() {
               value: 150, // Increase the number of particles for a denser lightning effect
             },
             opacity: {
-              value: 0.5,
+              value: .6,
               random: true, // Random opacity for a more dynamic effect
             },
             shape: {
-                value: "triangle"
+                type: "triangle"
             //   type: "image",
             //   image: {
             //     src: "particleSprite", // Use the same name as in loadImageShape

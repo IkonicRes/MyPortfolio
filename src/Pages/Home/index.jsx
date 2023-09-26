@@ -12,10 +12,10 @@ export default function Home() {
           {projects.map((project, index) => (
             <div className="card" key={index} style={ { backgroundImage:`url(${project.image})`}}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-              </a>
               <h4>{project.title}</h4>
               <p>{project.description}</p>
               <p>Technologies: {project.technologies.join(", ")}</p>
+              </a>
             </div>
           ))}
         </section>

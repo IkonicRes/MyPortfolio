@@ -6,7 +6,42 @@
 }
 .contact-form > textarea {
     min-height: 31vh;
+    background-color: #2b2a33b2;
+    border-image:
+        conic-gradient(var(--easy-cyan)10% , var(--magenta-border)50%, var(--easy-cyan)80%) 1;
 }
 .contact-form * {
-    line-height: 1.5;
+    line-height: 1.25;
+    margin: 0;
+}
+input {
+    width: 55vw;
+    font-size: 1.25rem;
+    text-shadow: -1px 1px 7px cyan;
+    background-color: #2b2a33b2;
+    border-image:
+        conic-gradient(var(--easy-cyan)10% , var(--magenta-border)50%, var(--easy-cyan)80%) 1;
+}
+select {
+    width: 55.5vw;
+    font-size: 1.25rem;
+    text-shadow: -1px 1px 7px cyan;
+    background-color: #2b2a33b2;
+    border-image:
+        conic-gradient(var(--easy-cyan)10% , var(--magenta-border)50%, var(--easy-cyan)80%) 1;
+}
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: .5vh;
+}
+button {
+    font-size: 1.25rem;
+    width: 15vw;
+    align-self: center;
+    margin: 3vh!important;
+    border-image:
+        conic-gradient(var(--easy-cyan)10% , var(--magenta-border)50%, var(--easy-cyan)80%) 1!important;
 }

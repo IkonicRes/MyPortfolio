@@ -30,17 +30,19 @@ export default function Contact() {
             <p>Please fill out the form below:</p>
             <div className="contact"> {/* Apply the "contact" class here */}
                 <form className="contact-form" onSubmit={handleSubmit}>
-                    <label htmlFor="name">Your Name:</label>
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                    />
-        
-                    <label htmlFor="email">Email:</label>
+                    <section className="form-row">
+                        <label htmlFor="name"><p>Your Name:</p></label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            required
+                        />
+                    </section>
+                    <section className="form-row">
+                    <label htmlFor="email"><p>Email:</p></label>
                     <input
                         type="email"
                         id="email"
@@ -49,8 +51,9 @@ export default function Contact() {
                         onChange={handleChange}
                         required
                     />
-        
-                    <label htmlFor="project-type">Project Type:</label>
+                    </section>
+                    <section className="form-row">
+                    <label htmlFor="project-type"><p>Project Type:</p></label>
                     <select
                         id="project-type"
                         name="projectType"
@@ -62,8 +65,9 @@ export default function Contact() {
                         <option value="e-commerce">E-Commerce</option>
                         <option value="other">Other</option>
                     </select>
-        
-                    <label htmlFor="budget">Budget Range:</label>
+                    </section>
+                    <section className="form-row">
+                    <label htmlFor="budget"><p>Budget Range:</p></label>
                     <input
                         type="text"
                         id="budget"
@@ -71,8 +75,9 @@ export default function Contact() {
                         value={formData.budget}
                         onChange={handleChange}
                     />
-        
-                    <label htmlFor="deadline">Project Deadline:</label>
+                    </section>
+                    <section className="form-row">
+                    <label htmlFor="deadline"><p>Project Deadline:</p></label>
                     <input
                         type="date"
                         id="deadline"
@@ -80,8 +85,8 @@ export default function Contact() {
                         value={formData.deadline}
                         onChange={handleChange}
                     />
-        
-                    <label htmlFor="message">Project Details:</label>
+                    </section>
+                    <label htmlFor="message"><p>Project Details:</p></label>
                     <textarea
                         id="message"
                         name="message"
