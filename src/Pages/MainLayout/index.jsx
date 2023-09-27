@@ -32,7 +32,7 @@ export default function MainLayout() {
               value: "#000000db", // Background color set to black
             },
           },
-          fpsLimit: 40,
+          fpsLimit: 30,
           interactivity: {
             events: {
               onClick: {
@@ -78,7 +78,7 @@ export default function MainLayout() {
                 enable: true,
                 area: 1500,
               },
-              value: 150, // Increase the number of particles for a denser lightning effect
+              value: 200, // Increase the number of particles for a denser lightning effect
             },
             opacity: {
               value: .6,
