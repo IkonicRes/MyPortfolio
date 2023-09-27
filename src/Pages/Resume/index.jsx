@@ -23,7 +23,7 @@ const ResumeComponent = () => {
 
   return (
     <div>
-      <h1>Resume - </h1>
+      <h2>Resume</h2>
       <iframe src="https://drive.google.com/file/d/1gbPfOJwBSHN9hZVqocq9UzkdKeKj-RlK/preview" width="98%" height={pageHeight} allow="autoplay"></iframe>
     </div>
   );

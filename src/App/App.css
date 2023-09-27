@@ -28,7 +28,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  background-color: #03d1ff34;
+  background-color: #3e03ff34;
   z-index: 1
 }
 
@@ -36,6 +36,7 @@ header {
   z-index: -1;
 }
 iframe {
+  background:none transparent;
   border-image:
   conic-gradient(var(--easy-cyan)10% , var(--magenta-border)50%, var(--easy-cyan)80%) 1;
 }
@@ -74,7 +75,25 @@ nav *{
     animation: logo-spin infinite 20s linear;
   }
 }
-
+/* THIS ONE'S HILARIOUS. KEEPING */
+/* @keyframes rotateBorderColor {
+  0% {
+    border-image-source: conic-gradient(var(--easy-cyan) 10%, var(--magenta-border) 50%, var(--easy-cyan) 80%);
+    transform: rotate(0deg);
+  }
+  100% {
+    border-image-source: conic-gradient(var(--easy-cyan) 10%, var(--magenta-border) 50%, var(--easy-cyan) 80%);
+    transform: rotate(360deg);
+  }
+} */
+@keyframes rotateBorderColor {
+  0% {
+    --border-gradient-position: 0deg;
+  }
+  100% {
+    --border-gradient-position: 360deg;
+  }
+}
 .card {
   padding: 2em;
 }
@@ -84,11 +103,10 @@ nav *{
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+  margin: 30vh auto 0 auto;
+  
   z-index: 1;
   font-size: 1.25rem;
   text-shadow: -1px 1px 7px cyan;
   text-align: center;
-  align-self: center;
 }

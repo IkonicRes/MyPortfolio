@@ -7,7 +7,7 @@
         --card-shadow-negative: -.1vw;
     /* SIZES  */
         --card-fontsize: 2.5rem;
-        --card-height: 11em;
+        --card-height: 15em;
 }
 p {
     font-size: 2rem;
@@ -24,11 +24,13 @@ a {
 #work {
     display: flex;
     flex-direction: row;
+    
 }
 /* Set the work cards to inherit the flex-box and make it wrap. */
 #work-cards {
     display: inherit;
     flex-wrap: wrap;
+    justify-content: center;
 }
 /* Give the cards a default "coming soon" image, make the size to cover the image, add a fancy box-shadow inset to make it look nice. Set the height
 So that it takes up some room, and make the font inside bolded, cyan, bigger, and give it a black shadow. Give the cards a small margin around and 
@@ -48,16 +50,20 @@ add a bit of padding so it comes down a little. Decrease default opacity for des
     var(--card-shadow-positive) var(--card-shadow-negative) .2vw #FFF,
     var(--card-shadow-negative) var(--card-shadow-positive) .2vw #FFF,
     var(--card-shadow-positive) var(--card-shadow-positive) .2vw #FFF;
-    flex-basis: calc(50rem - 2.5svw);
+    flex-basis: calc(39% - 1.5vw);
     border: .5vw solid;
     border-image:
         conic-gradient(var(--easy-cyan)10% , var(--magenta-border)50%, var(--easy-cyan)80%) 1;
     margin: .75vw;
+    border-image-slice: 1;
     text-align: center;
-    padding-top: 10vw;
+    padding: 0;
     opacity: .9;
     transition: box-shadow 1 ease-in-out;
+    animation: rotateBorderColor 5s linear infinite;
+    position: relative;
 }
+
 /* Set the card opacity on hover to full so that it lights up when you hover on desktop */
 .card:hover {
     box-shadow: 0px 0px 10vw 3vw rgba(0, 0, 0, 1) inset, 0 0 10vw 3vw rgba(0, 0, 0, 1) inset;

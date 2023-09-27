@@ -3,7 +3,7 @@ import "./ProjectList.css";
 // import projects from "./project"; // Import the projects array
 import { projects } from "./project"
 
-export default function Home() {
+export default function MyWork() {
   return (
     <div>
       <h2>My Work</h2>

@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom' 
 import MainLayout from '../Pages/MainLayout'
-import Home from '../Pages/Home'
+import MyWork from '../Pages/MyWork'
 import Contact from '../Pages/Contact'
 import Resume from '../Pages/Resume'
 import AboutMe from '../Pages/AboutMe'
@@ -15,9 +15,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<MainLayout/>}>
-          <Route index element = {<Home/>}/>
+          <Route index element = {<AboutMe/>}/>
           <Route path='/contact' element = {<Contact/>}/>
-          <Route path='/aboutMe' element = {<AboutMe/>}/>
+          <Route path='/portfolio' element = {<MyWork/>}/>
           <Route path='/resume' element = {<Resume/>}/>
         </Route>
       </Routes>

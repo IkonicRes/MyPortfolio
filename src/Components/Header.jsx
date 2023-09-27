@@ -5,10 +5,10 @@ const Header = () => {
     <header>
     <h1>Michael Ikonomou</h1>
     <nav>
-        <a href="/">Home</a>
-        <a href="/contact">Contact</a>
-        <a href="/aboutMe">About Me</a>
+        <a href="/">About Me</a>
+        <a href="/portfolio">My Work</a>
         <a href="/resume">Resume</a>
+        <a href="/contact">Contact</a>
     </nav>
 </header>
   )
