@@ -76,14 +76,14 @@ export default function MainLayout() {
             number: {
               density: {
                 enable: true,
-                area: 2000,
+                area: 1000,
               },
               value: 100, // Increase the number of particles for a denser lightning effect
             },
-            opacity: {
-              value: .6,
-              random: true, // Random opacity for a more dynamic effect
-            },
+            // opacity: {
+            //   value: .6,
+            //   random: true, // Random opacity for a more dynamic effect
+            // },
             shape: {
                 type: "triangle"
             //   type: "image",
