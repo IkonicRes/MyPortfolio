@@ -4,7 +4,7 @@
   import fortunesBarrow from "../../assets/images/Fortunes-Barrow.png"
   import tekFleks from "../../assets/images/TekFleks.png"
   import schedulerApp from "../../assets/images/Scheduler-App.png"
-  import horiseonDigital from "../../assets/images/horiseon.jpg"
+  import horiseonDigital from "../../assets/images/Horiseon.jpg"
   import comingSoon from "../../assets/images/Coming-soon.png"
   
   export const projects = [
