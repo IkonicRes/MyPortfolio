@@ -80,18 +80,8 @@ export default function MainLayout() {
               },
               value: 100, // Increase the number of particles for a denser lightning effect
             },
-            // opacity: {
-            //   value: .6,
-            //   random: true, // Random opacity for a more dynamic effect
-            // },
             shape: {
                 type: "triangle"
-            //   type: "image",
-            //   image: {
-            //     src: "particleSprite", // Use the same name as in loadImageShape
-            //     width: 100, // Specify the width of the image
-            //     height: 100, // Specify the height of the image
-            //   },
             },
             size: {
               value: {
