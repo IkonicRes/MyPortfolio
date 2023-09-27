@@ -32,7 +32,7 @@ export default function MainLayout() {
               value: "#000000db", // Background color set to black
             },
           },
-          fpsLimit: 30,
+          fpsLimit: 20,
           interactivity: {
             events: {
               onClick: {
