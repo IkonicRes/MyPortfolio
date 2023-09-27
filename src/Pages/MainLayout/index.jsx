@@ -70,15 +70,15 @@ export default function MainLayout() {
               random: true, // Random movement for a lightning effect
               speed: {
                 min: 0.1,
-                max: 2,
+                max: 1,
               },
             },
             number: {
               density: {
                 enable: true,
-                area: 2500,
+                area: 2000,
               },
-              value: 200, // Increase the number of particles for a denser lightning effect
+              value: 150, // Increase the number of particles for a denser lightning effect
             },
             // opacity: {
             //   value: .6,
@@ -96,7 +96,7 @@ export default function MainLayout() {
             size: {
               value: {
                 min: 0.2,
-                max: 3,
+                max: 1,
               },
             },
           },
