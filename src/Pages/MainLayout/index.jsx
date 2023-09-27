@@ -78,7 +78,7 @@ export default function MainLayout() {
                 enable: true,
                 area: 2000,
               },
-              value: 100, // Increase the number of particles for a denser lightning effect
+              value: 150, // Increase the number of particles for a denser lightning effect
             },
             // opacity: {
             //   value: .6,
