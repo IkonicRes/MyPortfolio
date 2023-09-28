@@ -23,7 +23,7 @@ nav a {
 /* Apply the same styling to both .active and nav a:hover */
 .active,
 nav a:hover {
-  background-color: cyan; /* Highlight color on hover and when active */
+  background-color: #00d0ff71; /* Highlight color on hover and when active */
   border-radius: 8px; /* Apply border-radius */
   padding: 2px;
 }
