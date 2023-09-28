@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css"
-import avatar from "../../assets/images/coming-soon.png"
+import avatar from "../../assets/images/Coming-soon.png"
 
 export default function AboutMe() {
 
