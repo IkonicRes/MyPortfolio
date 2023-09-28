@@ -20,6 +20,7 @@
     {
       title: "SpaceBook NASA blog",
       url: "https://spacebook-5e89d6d6f153.herokuapp.com/",
+      repoLink: "https://github.com/IkonicRes/SpaceBook",
       image: spaceBook,
       alt: "SpaceBook: Connect with the Cosmos",
       description: "SpaceBook is a platform for space enthusiasts to share their thoughts and discoveries about the cosmos.",
@@ -29,6 +30,7 @@
     {
       title: "Crystal Weather",
       url: "https://ikonicres.github.io/Crystal-Weather/",
+      repoLink: "https://github.com/IkonicRes/Crystal-Weather",
       image: crystalWeather,
       alt: "Crystal Weather Preview",
       description: "Crystal Weather is a weather app that provides accurate forecasts and beautiful visuals.",
@@ -38,6 +40,7 @@
     {
       title: "Fortune's Barrow",
       url: "https://ikonicres.github.io/Fortunes-Barrow/",
+      repoLink: "https://github.com/IkonicRes/Fortunes-Barrow",
       image: fortunesBarrow,
       alt: "Fortune's Barrow Splash Screen",
       description: "Fortune's Barrow is an interactive adventure game set in a dangerous dungeon.",
@@ -47,6 +50,7 @@
     {
       title: "TekFleks",
       url: "https://tekfleks-c6410a448c68.herokuapp.com/",
+      repoLink: "https://github.com/IkonicRes/TekFleks",
       image: tekFleks,
       alt: "TekFleks",
       description: "TekFleks is an e-commerce platform for tech enthusiasts offering a wide range of electronic gadgets.",
@@ -56,6 +60,7 @@
     {
       title: "Scheduler",
       url: "https://ikonicres.github.io/Scheduler-App/",
+      repoLink: "https://github.com/IkonicRes/Scheduler-App",
       image: schedulerApp,
       alt: "Scheduler App Preview",
       description: "Scheduler is a task management app that helps you organize your daily activities efficiently.",
@@ -65,6 +70,7 @@
     {
       title: "Horiseon Digital Website",
       url: "https://ikonicres.github.io/horiseon-digital-website/",
+      repoLink: "https://github.com/IkonicRes/horiseon-digital-website",
       image: horiseonDigital,
       alt: "Horiseon project main image",
       description: "Horiseon Digital Website is a marketing website highlighting digital services.",

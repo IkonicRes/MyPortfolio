@@ -75,3 +75,11 @@ add a bit of padding so it comes down a little. Decrease default opacity for des
     background-image: url("../images/2_5D-starter-kit.png");
     background-size:cover;
 }
+.card button {
+    width: 5vw!important;
+    height: 5vw;
+    background-image: url(../../assets/images/github-mark-white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 30vw!important;
+}

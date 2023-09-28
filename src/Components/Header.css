@@ -1,3 +1,29 @@
-nav > a {
-    font-size: 1.5rem!important;
-  }
+.active {
+  background-color: #00d0ff51;
+  border-radius: 8px; /* Adjust the radius to control the roundness of the highlight */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  padding: 2px;
+}
+
+/* Set fixed width for the links to prevent dimension changes */
+/* Set fixed width for the links to prevent dimension changes */
+nav a {
+  display: inline-block;
+  width: 120px; /* Adjust the width as needed */
+  text-align: center; /* Center the link text */
+  text-decoration: none;
+  color: #333; /* Text color */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  font-size: 1.5rem;
+  padding: 2px;
+  border-radius: 8px; /* Apply border-radius */
+  margin: auto 3px;
+}
+
+/* Apply the same styling to both .active and nav a:hover */
+.active,
+nav a:hover {
+  background-color: #00d0ff51; /* Highlight color on hover and when active */
+  border-radius: 8px; /* Apply border-radius */
+  padding: 2px;
+}
