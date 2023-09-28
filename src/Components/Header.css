@@ -12,7 +12,7 @@ nav a {
   width: 120px; /* Adjust the width as needed */
   text-align: center; /* Center the link text */
   text-decoration: none;
-  color: #909090; /* Text color */
+  color: #f5f5f5; /* Text color */
   transition: background-color 0.3s ease; /* Smooth transition */
   font-size: 1.5rem;
   padding: 2px;
@@ -23,7 +23,7 @@ nav a {
 /* Apply the same styling to both .active and nav a:hover */
 .active,
 nav a:hover {
-  background-color: #00d0ff51; /* Highlight color on hover and when active */
+  background-color: cyan; /* Highlight color on hover and when active */
   border-radius: 8px; /* Apply border-radius */
   padding: 2px;
 }
