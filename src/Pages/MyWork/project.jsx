@@ -5,6 +5,7 @@
   import tekFleks from "../../assets/images/TekFleks.png"
   import schedulerApp from "../../assets/images/Scheduler-App.png"
   import horiseonDigital from "../../assets/images/Horiseon.jpg"
+  import junkSpace from "../../assets/images/JunkSpace.jpg"
   import comingSoon from "../../assets/images/Coming-soon.png"
   
   export const projects = [
@@ -75,6 +76,16 @@
       alt: "Horiseon project main image",
       description: "Horiseon Digital Website is a marketing website highlighting digital services.",
       technologies: ["HTML", "CSS"],
+      featured: false
+    },
+    {
+      title: "JunkSpace",
+      url: "https://junkspace.onrender.com/",
+      repoLink: "https://github.com/IkonicRes/JunkSpace",
+      image: junkSpace,
+      alt: "JunkSpace Homepage Preview",
+      description: "JunkSpace: A place to buy junk from space",
+      technologies: ["HTML", "CSS", "React", "GraphQl", "Node.js", "MongoDB", "Express.js"],
       featured: false
     },
     {
