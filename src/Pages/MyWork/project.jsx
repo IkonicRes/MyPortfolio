@@ -5,7 +5,7 @@
   import tekFleks from "../../assets/images/TekFleks.png"
   import schedulerApp from "../../assets/images/Scheduler-App.png"
   import horiseonDigital from "../../assets/images/Horiseon.jpg"
-  import junkSpace from "../../assets/images/JunkSpace.jpg"
+  import junkSpace from "../../assets/images/JunkSpace.png"
   import comingSoon from "../../assets/images/Coming-soon.png"
   
   export const projects = [
