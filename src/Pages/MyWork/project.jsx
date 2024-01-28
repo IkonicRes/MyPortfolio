@@ -50,7 +50,7 @@
     },
     {
       title: "TekFleks",
-      url: "https://tekfleks-c6410a448c68.herokuapp.com/",
+      url: "https://tekfleks-bc6c0588c0bb.herokuapp.com/",
       repoLink: "https://github.com/IkonicRes/TekFleks",
       image: tekFleks,
       alt: "TekFleks",
